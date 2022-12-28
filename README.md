@@ -18,7 +18,7 @@ Conclaveは、エンクレーブと呼ばれるハードウェアベースのTru
 
 ```bash
 cd conclave-tutorials/hello-world
-./gradlew :host:bootJar :client:shadowJar --stacktrace --debug
+./gradlew :host:bootJar :client:shadowJar --stacktrace --debug --scan
 ```
 
 ### 参考文献
